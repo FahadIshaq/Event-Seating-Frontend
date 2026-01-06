@@ -1,0 +1,259 @@
+{
+    "venueId": "grand-theater-01",
+    "name": "Grand Theater",
+    "map": {
+      "width": 1200,
+      "height": 800
+    },
+    "sections": [
+      {
+        "id": "A",
+        "label": "Orchestra - Left",
+        "color": "#8b5cf6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rows": [
+            {
+              "index": "A",
+              "scale": 1,
+              "seats": [
+                {
+                  "id": "A1",
+                  "col": 1,
+                  "x": 100,
+                  "y": 100,
+                  "priceTier": "premium",
+                  "price": 150,
+                  "status": "available"
+                },
+                {
+                  "id": "A2",
+                  "col": 2,
+                  "x": 140,
+                  "y": 100,
+                  "priceTier": "premium",
+                  "price": 150,
+                  "status": "available"
+                },
+                {
+                  "id": "A3",
+                  "col": 3,
+                  "x": 180,
+                  "y": 100,
+                  "priceTier": "premium",
+                  "price": 150,
+                  "status": "reserved"
+                },
+                {
+                  "id": "A4",
+                  "col": 4,
+                  "x": 220,
+                  "y": 100,
+                  "priceTier": "premium",
+                  "price": 150,
+                  "status": "available"
+                },
+                {
+                  "id": "A5",
+                  "col": 5,
+                  "x": 260,
+                  "y": 100,
+                  "priceTier": "premium",
+                  "price": 150,
+                  "status": "sold"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "B",
+        "label": "Orchestra - Center",
+        "color": "#06b6d4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rows": [
+            {
+              "index": "B",
+              "scale": 1,
+              "seats": [
+                {
+                  "id": "B1",
+                  "col": 1,
+                  "x": 400,
+                  "y": 100,
+                  "priceTier": "standard",
+                  "price": 100,
+                  "status": "available"
+                },
+                {
+                  "id": "B2",
+                  "col": 2,
+                  "x": 440,
+                  "y": 100,
+                  "priceTier": "standard",
+                  "price": 100,
+                  "status": "available"
+                },
+                {
+                  "id": "B3",
+                  "col": 3,
+                  "x": 480,
+                  "y": 100,
+                  "priceTier": "standard",
+                  "price": 100,
+                  "status": "held"
+                },
+                {
+                  "id": "B4",
+                  "col": 4,
+                  "x": 520,
+                  "y": 100,
+                  "priceTier": "standard",
+                  "price": 100,
+                  "status": "available"
+                },
+                {
+                  "id": "B5",
+                  "col": 5,
+                  "x": 560,
+                  "y": 100,
+                  "priceTier": "standard",
+                  "price": 100,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "C",
+        "label": "Orchestra - Right",
+        "color": "#f59e0b",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rows": [
+            {
+              "index": "C",
+              "scale": 1,
+              "seats": [
+                {
+                  "id": "C1",
+                  "col": 1,
+                  "x": 800,
+                  "y": 100,
+                  "priceTier": "economy",
+                  "price": 75,
+                  "status": "available"
+                },
+                {
+                  "id": "C2",
+                  "col": 2,
+                  "x": 840,
+                  "y": 100,
+                  "priceTier": "economy",
+                  "price": 75,
+                  "status": "available"
+                },
+                {
+                  "id": "C3",
+                  "col": 3,
+                  "x": 880,
+                  "y": 100,
+                  "priceTier": "economy",
+                  "price": 75,
+                  "status": "available"
+                },
+                {
+                  "id": "C4",
+                  "col": 4,
+                  "x": 920,
+                  "y": 100,
+                  "priceTier": "economy",
+                  "price": 75,
+                  "status": "sold"
+                },
+                {
+                  "id": "C5",
+                  "col": 5,
+                  "x": 960,
+                  "y": 100,
+                  "priceTier": "economy",
+                  "price": 75,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "D",
+        "label": "Mezzanine - Left",
+        "color": "#8b5cf6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rows": [
+            {
+              "index": "D",
+              "scale": 1,
+              "seats": [
+                {
+                  "id": "D1",
+                  "col": 1,
+                  "x": 100,
+                  "y": 250,
+                  "priceTier": "premium",
+                  "price": 140,
+                  "status": "available"
+                },
+                {
+                  "id": "D2",
+                  "col": 2,
+                  "x": 140,
+                  "y": 250,
+                  "priceTier": "premium",
+                  "price": 140,
+                  "status": "available"
+                },
+                {
+                  "id": "D3",
+                  "col": 3,
+                  "x": 180,
+                  "y": 250,
+                  "priceTier": "premium",
+                  "price": 140,
+                  "status": "available"
+                },
+                {
+                  "id": "D4",
+                  "col": 4,
+                  "x": 220,
+                  "y": 250,
+                  "priceTier": "premium",
+                  "price": 140,
+                  "status": "available"
+                },
+                {
+                  "id": "D5",
+                  "col": 5,
+                  "x": 260,
+                  "y": 250,
+                  "priceTier": "premium",
+                  "price": 140,
+                  "status": "reserved"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
